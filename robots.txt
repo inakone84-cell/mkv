@@ -5,6 +5,3 @@ User-agent: *
 
 # Allow all other parts of the site
 Allow: /
-
-# Optional sitemap declaration
-Sitemap: https://www.moviehai.icu/sitemap.xml
