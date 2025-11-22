@@ -6035,7 +6035,7 @@ function openPost(post) {
         else if (allPosts7.includes(post)) serverUrl = "https://p7.moviehai.icu/p/";
         else if (allPosts8.includes(post)) serverUrl = "https://p8.moviehai.icu/p/";
             
-        window.open(`${serverUrl}${formattedTitle}.html`, '_blank');
+        window.open(`${serverUrl}${formattedTitle}.html`, '_self');
         
         if (btn) setTimeout(() => btn.classList.remove('btn-loading'), 1000);
     }, 300);
@@ -6102,4 +6102,5 @@ lightbox.option({
 
 // Start the application
 init();
+
 
